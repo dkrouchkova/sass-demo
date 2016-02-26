@@ -357,9 +357,15 @@ td,
 th {
   padding: 0; }
 
-/*CSS*/
-body {
-  background: rgba(114, 211, 134, 0.9);
+/* =====================================================================
+********************************CSS************************************
+========================================================================*/
+.home {
+  background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.8)), url("http://placehold.it/960x600/ff0000/ffffff");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
   font-family: helvetica, serif;
   color: rgba(255, 255, 255, 0.9); }
 
@@ -393,5 +399,14 @@ nav {
       nav ul li a:active {
         color: yellow;
         background: black; }
+
+.portfolio li {
+  float: left;
+  padding-right: 50px;
+  min-height: 150px;
+  list-style: none; }
+  .portfolio li img {
+    -webkit-border-radius: 50%;
+    border-radius: 50%; }
 
 /*# sourceMappingURL=main.css.map */
